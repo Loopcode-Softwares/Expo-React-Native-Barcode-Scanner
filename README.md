@@ -16,4 +16,5 @@ import BarcodeScanner from '../components/BarcodeScanner'; //top of your code pa
 const GetBarcode=(data:any)=>{
    console.log(data)
 }
+<br><br>
 <BarcodeScanner onBarCodeScanned={(data:any)=>{GetBarcode(data)}} title="Open Barcode Scanner" /> //add this code, where you want to use
