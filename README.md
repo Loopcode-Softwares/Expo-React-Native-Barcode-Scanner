@@ -13,4 +13,7 @@ Drag and drop all directories and files into your Expo components directory
 
 import BarcodeScanner from '../components/BarcodeScanner'; //top of your code page, you can edit where your file is
 <br><br>
+const GetBarcode=(data:any)=>{
+   console.log(data)
+}
 <BarcodeScanner onBarCodeScanned={(data:any)=>{GetBarcode(data)}} title="Open Barcode Scanner" /> //add this code, where you want to use
